@@ -1,0 +1,120 @@
+header {
+ font-family:"Rockwell", times, serif;
+}
+
+footer {
+ font-family:"Rockwell", times, serif;
+}
+
+
+body {
+ font-family:"Rockwell", times, serif;
+}
+
+img {
+  width: 20%;
+  position: sticky;
+  top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* image */
+.imageright {
+position: right;
+}
+
+/*button*/
+.menubutton {
+  background-color: #9ACBC5;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius: 25px;
+transition: all 0.2s ease-out;
+}
+
+.menubutton:hover {
+  background-color: #1C9AC9;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius: 25px;
+box-shadow: 3px 5px 5px grey;
+transition: all 0.2s ease-out;
+}
+
+.menubutton:active {
+  background-color: #1C9AC9;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius: 25px;
+box-shadow: none;
+}
+
+
+
+nav {
+  float: right;
+  width: 70%;
+  position: sticky;
+  top: 10px;
+  background-color: #AFD2CE;
+  box-shadow: 3px 5px 5px grey;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+
+    display: list-item;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+transition: all 0.2s ease-out;
+  background-color: #9ACBC5;
+  box-shadow: 3px 5px 5px grey;
+}
+
+nav a:active{
+transition: all 0.2s ease-out;
+background-color: #AFD2CE;
+  box-shadow: 2px 3px 2px grey;
+}
